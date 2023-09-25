@@ -4,7 +4,7 @@ import * as React from 'react';
 export function Navbar() {
   return (
     <div>
-      <nav className="bg-white dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+      <nav className="bg-cyan-950 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
         <a className="flex items-center">
         </a>
@@ -32,37 +32,13 @@ export function Navbar() {
         <div
           className={`items-center block justify-between w-full md:flex md:w-auto md:order-1`}
         >
-          <ul className="flex flex-col md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 p-5">
+          <ul className="flex md:text-white text-white flex-col md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white bg-cyan-950 md:dark:bg-cyan-950 dark:border-gray-700 p-5">
             <li className="py-2 lg:py-0 text-lg text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex lg:pt-0">
               <a
                 href="/"
-                className="md:bg-transparent md:text-[#9A1B76] text-[#9A1B76] hover:text-[#db43b0] md:p-0 md:hover:text-[#db43b0]"
+                className="md:bg-transparent  hover:text-[#64CCC5] md:p-0 md:hover:text-[#64CCC5]"
               >
                 Inicio
-              </a>
-            </li>
-            <li className="py-2 lg:py-0 text-lg text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex lg:pt-0">
-              <a
-                href="/cursos"
-                className="md:bg-transparent md:text-[#9A1B76] text-[#9A1B76] hover:text-[#db43b0] md:p-0 md:hover:text-[#db43b0]"
-              >
-                Cursos
-              </a>
-            </li>
-            <li className="py-2 lg:py-0 text-lg text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex lg:pt-0">
-              <a
-                href="/instructores"
-                className="md:bg-transparent md:text-[#9A1B76] text-[#9A1B76] hover:text-[#db43b0] md:p-0 md:hover:text-[#db43b0]"
-              >
-                Instructores
-              </a>
-            </li>
-            <li className="py-2 lg:py-0 text-lg text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex lg:pt-0">
-              <a
-                href="/contactos"
-                className="md:bg-transparent md:text-[#9A1B76] text-[#9A1B76] hover:text-[#db43b0] md:p-0 md:hover:text-[#db43b0]"
-              >
-                Contactos
               </a>
             </li>
 
@@ -71,18 +47,18 @@ export function Navbar() {
            
                 onClick={() => navigate("/login")}
                 type="button"
-                className="text-white bg-[#9A1B76] hover:bg-[#db43b0] py-1.5 px-5 text-lg font-semibold rounded-full"
+                className="text-white bg-[#176B87] hover:bg-[#64CCC5] hover:text-black py-1.5 px-5 text-lg font-semibold rounded-full"
               >
                 Iniciar Sesion
               </button>
             </li>
             <li className="py-2 lg:py-0 ">
-            <button  onClick={() => navigate("/registrarme")} type="button" className="text-white bg-[#9A1B76] hover:bg-[#db43b0] py-1.5 px-5 text-lg font-semibold rounded-full">
+            <button  onClick={() => navigate("/registrarme")} type="button" className="text-white bg-[#176B87] hover:bg-[#64CCC5] hover:text-black py-1.5 px-5 text-lg font-semibold rounded-full">
                 Registrarme
               </button>
             </li>
             <li className='py-2 lg:py-0 text-center'>
-              <button  type="button" className="text-white bg-[#9A1B76] hover:bg-[#db43b0] py-1.5 px-5 text-lg font-semibold rounded-full">
+              <button  type="button" className="text-white bg-[#176B87] hover:bg-[#64CCC5] hover:text-black  py-1.5 px-5 text-lg font-semibold rounded-full">
                 Cerrar Sesion
               </button>
             </li>
