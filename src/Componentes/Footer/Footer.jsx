@@ -8,7 +8,7 @@ import {
 
 function Footer() {
   return (
-    <div className="di">
+    <div className="div">
       <footer className="bottom-0 left-0 z-20 w-full gap-11 bg-[#053B50] px-4 py-4 md:px-24">
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="flex flex-col md:flex-row md:justify-between gap-3 mb-10">
