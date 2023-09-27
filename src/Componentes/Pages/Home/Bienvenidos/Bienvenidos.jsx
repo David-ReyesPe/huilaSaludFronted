@@ -43,7 +43,7 @@ export function Bienvenidos() {
                       <input placeholder="&nbsp;&nbsp;&nbsp;Nombre"
                         type={"text"}
                         name="nombre"
-                        className=" shadow appearance-none border rounded-l-full w-80 h-12 " id="NombreC" />
+                        className=" shadow appearance-none border rounded-l-full w-80 h-12" id="NombreC" />
                     </div>
 
                     <div className=''>
