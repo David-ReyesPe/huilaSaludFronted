@@ -16,7 +16,7 @@ function Footer() {
               <img
                 className="h-[86px] w-[230px]"
                 alt="Logo blanco"
-                src="src\Componentes\Footer\Images\footerLogo.png"
+                src="src\assets\Images\Logo.png"
               />
               <p className="text-white text-[14px] md:text-[16px] md:text-lg p-2 w-full md:w-96 text-left cursor-default">
                 Conectando pacientes con atención de calidad, cuando y donde lo
